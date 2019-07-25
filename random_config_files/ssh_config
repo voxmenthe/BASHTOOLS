@@ -1,0 +1,36 @@
+Host mdc2pr113
+ServerAliveInterval 30
+ServerAliveCountMax 120
+
+Host mdc2pr298
+ServerAliveInterval 30
+ServerAliveCountMax 120
+
+Host mdc2vra007
+ServerAliveInterval 30
+ServerAliveCountMax 120
+
+Host mdc2pr305
+ServerAliveInterval 30
+ServerAliveCountMax 120
+
+Host mdc2pr306
+ServerAliveInterval 30
+ServerAliveCountMax 120
+
+Host mdc2pr307
+ServerAliveInterval 30
+ServerAliveCountMax 120
+
+Host mdc2pr308
+ServerAliveInterval 30
+ServerAliveCountMax 120
+
+Host mdc2pr365
+ServerAliveInterval 30
+ServerAliveCountMax 120
+
+Host mdc2pr386
+ServerAliveInterval 30
+ServerAliveCountMax 120
+
