@@ -101,5 +101,13 @@ git commit -m "auto commit from home $now"
 git push
 echo "Finished ncsn_1"
 
+echo "Starting fast-bert"
+cd ../fast-bert
+git pull
+git add .
+git commit -m "auto commit from home $now"
+git push
+echo "Finished fast-bert"
+
 echo "Finished all commits"
 cd /home/user/Dropbox/Prog/Py16/1_Macys_Shared_Repos
