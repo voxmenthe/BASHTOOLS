@@ -12,6 +12,30 @@ git commit -m "auto commit from home $now"
 git push
 echo "Finished cython_home"
 
+echo "Starting Viz_Model_Eval"
+cd ../Viz_Model_Eval
+git pull
+git add .
+git commit -m "auto commit from home $now"
+git push
+echo "Finished Viz_Model_Eval"
+
+echo "Starting DTOOLS"
+cd ../DTOOLS
+git pull
+git add .
+git commit -m "automated commit from home $NOW"
+git push
+echo "Finished DTOOLS"
+
+echo "Starting BASHTOOLS"
+cd ../BASHTOOLS
+git pull
+git add .
+git commit -m "automated commit from home $NOW"
+git push
+echo "Finished BASHTOOLS"
+
 echo "Starting FinStats"
 cd ../FinStats
 git pull
@@ -60,14 +84,30 @@ git commit -m "auto commit from home $now"
 git push
 echo "Finished ToolsUtils"
 
-echo "Starting Viz_Model_Eval"
-cd ../Viz_Model_Eval
+echo "Starting OmniNet_1"
+cd ../OmniNet_1
 git pull
 git add .
 git commit -m "auto commit from home $now"
 git push
-echo "Finished Viz_Model_Eval"
+echo "Finished OmniNet_1"
 
+
+echo "Starting ncsn_1"
+cd ../ncsn_1
+git pull
+git add .
+git commit -m "auto commit from home $now"
+git push
+echo "Finished ncsn_1"
+
+echo "Starting fast-bert"
+cd ../fast-bert
+git pull
+git add .
+git commit -m "auto commit from home $now"
+git push
+echo "Finished fast-bert"
 
 echo "Finished all commits"
 cd /home/user/Dropbox/Prog/Py16/1_Macys_Shared_Repos
