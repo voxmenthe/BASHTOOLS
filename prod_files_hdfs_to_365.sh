@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# ssh mdc2pr106
+
 /home/da_mcom_milan/tmp
 
 echo "Removing local files"

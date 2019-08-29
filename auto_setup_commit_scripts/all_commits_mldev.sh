@@ -11,6 +11,22 @@ git commit -m "automated commit from mldev $NOW"
 git push
 echo "Finished FBT"
 
+echo "Starting DTOOLS"
+cd ../DTOOLS
+git pull
+git add .
+git commit -m "automated commit from mldev $NOW"
+git push
+echo "Finished DTOOLS"
+
+echo "Starting BASHTOOLS"
+cd ../DTOOLS
+git pull
+git add .
+git commit -m "automated commit from mldev $NOW"
+git push
+echo "Finished BASHTOOLS"
+
 echo "Starting FinStats"
 cd ../FinStats
 git pull
