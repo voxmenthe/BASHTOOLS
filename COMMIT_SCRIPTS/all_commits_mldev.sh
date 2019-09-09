@@ -1,7 +1,8 @@
 NOW=$(date)
 
-echo "Starting FBT"
 cd /home/jovyan/work/yh09262/
+
+echo "Starting FBT"
 cd FBT
 git config credential.helper store
 git pull
