@@ -1,4 +1,5 @@
 sudo apt-get update
+sudo apt-get upgrade -y
 sudo apt-get install -y mc wkhtmltopdf screen htop
 
 sudo pip install --upgrade pip
