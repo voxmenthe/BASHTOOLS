@@ -6,3 +6,5 @@ sklearn
 pytorch
 torchvision
 tensorflow
+openpyxl
+pyarrow

@@ -27,3 +27,15 @@ cd ../recom-evaluator
 git pull
 sudo pip install -e .
 echo "Finished pulling and installing: recom-evaluator"
+
+echo "Pulling and Installing latest: als-eals"
+cd ../als-eals
+git pull
+sudo pip install -e .
+echo "Finished pulling and installing: als-eals"
+
+echo "Pulling and Installing latest: summon-als-category-clusters"
+cd ../summon-als-category-clusters
+git pull
+sudo pip install -e .
+echo "Finished pulling and installing: summon-als-category-clusters"
