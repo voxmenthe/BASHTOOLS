@@ -3,7 +3,7 @@ sudo apt-get upgrade -y
 sudo apt-get install -y mc screen htop
 
 sudo pip install --upgrade pip
-sudo pip install -r gcp_requirements.txt --upgrade
+sudo pip install -r gcp_requirements_lite.txt --upgrade
 
 
 git config --global credential.helper 'cache --timeout=99999999999'
