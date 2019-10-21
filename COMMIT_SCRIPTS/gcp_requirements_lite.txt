@@ -5,3 +5,4 @@ Cython
 sklearn
 openpyxl
 pyarrow
+matplotlib
