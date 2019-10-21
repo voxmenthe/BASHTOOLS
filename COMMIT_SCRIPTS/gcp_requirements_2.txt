@@ -1,0 +1,12 @@
+numpy
+pandas
+sklearn
+Cython
+gensim
+ipython-autotime
+pyarrow
+torch
+torchvision
+torchtext
+pdfkit
+matplotlib

@@ -1,8 +1,0 @@
-numpy
-gensim
-pandas
-Cython
-sklearn
-pytorch
-torchvision
-tensorflow
