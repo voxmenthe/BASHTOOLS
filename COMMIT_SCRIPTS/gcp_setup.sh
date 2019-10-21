@@ -9,7 +9,7 @@ sudo pip install -r gcp_requirements_lite.txt --upgrade
 git config --global credential.helper 'cache --timeout=99999999999'
 sh all_commits_gcp.sh
 
-cd /home/jovyan/work/yh09262/RECOM_LIBS/
+cd /home/jovyan/work/a091569/RECOM_LIBS/
 
 echo "Pulling latest: pros-dataset-etl"
 cd pros-dataset-etl
