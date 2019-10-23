@@ -6,3 +6,11 @@ sklearn
 pytorch
 torchvision
 tensorflow
+openpyxl
+pyarrow
+ipython-autotime
+torch
+torchvision
+torchtext
+pdfkit
+matplotlib

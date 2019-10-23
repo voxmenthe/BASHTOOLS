@@ -84,4 +84,14 @@ git commit -m "automated commit from laptop $NOW"
 git push
 echo "Finished sota_arxiv_query"
 
+echo "Starting git_pull_only"
+cd ../git_pull_only
+git config credential.helper store
+git config --global submodule.recurse true
+git pull
+git add .
+git commit -m "automated commit from laptop $NOW"
+git push
+echo "Finished git_pull_only"
+
 echo "Finished all commits"

@@ -1,14 +1,15 @@
 sudo apt-get update
-sudo apt-get install -y mc wkhtmltopdf screen htop
+sudo apt-get upgrade -y
+sudo apt-get install -y mc screen htop
 
 sudo pip install --upgrade pip
-sudo pip install -r gcp_requirements.txt --upgrade
+sudo pip install -r gcp_requirements_lite.txt --upgrade
 
 
 git config --global credential.helper 'cache --timeout=99999999999'
 sh all_commits_gcp.sh
 
-cd /home/jovyan/work/yh09262/RECOM_LIBS/
+cd /home/jovyan/work/a091569/RECOM_LIBS/
 
 echo "Pulling latest: pros-dataset-etl"
 cd pros-dataset-etl
@@ -26,3 +27,15 @@ cd ../recom-evaluator
 git pull
 sudo pip install -e .
 echo "Finished pulling and installing: recom-evaluator"
+
+echo "Pulling and Installing latest: als-eals"
+cd ../als-eals
+git pull
+sudo pip install -e .
+echo "Finished pulling and installing: als-eals"
+
+echo "Pulling and Installing latest: summon-als-category-clusters"
+cd ../summon-als-category-clusters
+git pull
+sudo pip install -e .
+echo "Finished pulling and installing: summon-als-category-clusters"

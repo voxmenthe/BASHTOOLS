@@ -109,5 +109,15 @@ git commit -m "auto commit from home $now"
 git push
 echo "Finished fast-bert"
 
+echo "Starting git_pull_only"
+cd ../git_pull_only
+git config credential.helper store
+git config --global submodule.recurse true
+git pull
+git add .
+git commit -m "automated commit from laptop $now"
+git push
+echo "Finished git_pull_only"
+
 echo "Finished all commits"
 cd /home/user/Dropbox/Prog/Py16/1_Macys_Shared_Repos
