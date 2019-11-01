@@ -12,6 +12,14 @@ git commit -m "auto commit from home $now"
 git push
 echo "Finished cython_home"
 
+echo "Starting COMPLEMENTARY_V2"
+cd ../COMPLEMENTARY_V2
+git pull
+git add .
+git commit -m "auto commit from home $now"
+git push
+echo "Finished COMPLEMENTARY_V2"
+
 echo "Starting Viz_Model_Eval"
 cd ../Viz_Model_Eval
 git pull
