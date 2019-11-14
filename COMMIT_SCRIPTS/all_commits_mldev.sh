@@ -81,6 +81,15 @@ git commit -m "automated commit from mldev $NOW"
 git push
 echo "Finished complementary_product_recs"
 
+echo "Starting COMPLEMENTARY_V2"
+cd ../COMPLEMENTARY_V2
+git config credential.helper store
+git pull
+git add .
+git commit -m "automated commit from mldev $NOW"
+git push
+echo "Finished COMPLEMENTARY_V2"
+
 echo "Starting data_wrangling"
 cd ../data_wrangling
 git config credential.helper store
