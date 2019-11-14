@@ -20,7 +20,7 @@ git push
 echo "Finished DTOOLS"
 
 echo "Starting BASHTOOLS"
-cd ../DTOOLS
+cd ../BASHTOOLS
 git pull
 git add .
 git commit -m "automated commit from mldev $NOW"
