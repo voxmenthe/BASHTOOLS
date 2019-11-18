@@ -38,6 +38,14 @@ git commit -m "automated commit from laptop $NOW"
 git push
 echo "Finished BASHTOOLS"
 
+echo "Starting nips2021"
+cd ../nips2021
+git pull
+git add .
+git commit -m "auto commit from laptop $NOW"
+git push
+echo "Finished nips2021"
+
 echo "Starting cython_home"
 cd ../cython_home
 git config credential.helper store

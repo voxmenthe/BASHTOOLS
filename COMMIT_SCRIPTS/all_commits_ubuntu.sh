@@ -20,6 +20,14 @@ git commit -m "auto commit from home $now"
 git push
 echo "Finished COMPLEMENTARY_V2"
 
+echo "Starting nips2021"
+cd ../nips2021
+git pull
+git add .
+git commit -m "auto commit from home $now"
+git push
+echo "Finished nips2021"
+
 echo "Starting Viz_Model_Eval"
 cd ../Viz_Model_Eval
 git pull

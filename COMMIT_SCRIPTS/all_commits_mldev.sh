@@ -27,6 +27,14 @@ git commit -m "automated commit from mldev $NOW"
 git push
 echo "Finished BASHTOOLS"
 
+echo "Starting nips2021"
+cd ../nips2021
+git pull
+git add .
+git commit -m "auto commit from mldev $NOW"
+git push
+echo "Finished nips2021"
+
 echo "Starting FinStats"
 cd ../FinStats
 git config credential.helper store
