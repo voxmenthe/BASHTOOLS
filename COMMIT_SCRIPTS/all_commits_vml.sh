@@ -1,6 +1,6 @@
 NOW=$(date)
 
-cd /home/jovyan/work/yh09262
+cd /home/jovyan/work/a091569
 
 git config credential.helper store
 
