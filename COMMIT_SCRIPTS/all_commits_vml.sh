@@ -20,6 +20,14 @@ git commit -m "auto commit from vml $NOW"
 git push
 echo "Finished nips2021"
 
+echo "Starting COMPLEMENTARY_V2"
+cd ../COMPLEMENTARY_V2
+git pull
+git add .
+git commit -m "auto commit from vml $NOW"
+git push
+echo "Finished COMPLEMENTARY_V2"
+
 echo "Starting Recom_Eval"
 cd Recom_Eval
 git pull
