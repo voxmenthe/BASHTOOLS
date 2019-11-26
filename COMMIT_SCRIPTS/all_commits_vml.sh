@@ -20,6 +20,14 @@ git commit -m "auto commit from vml $NOW"
 git push
 echo "Finished nips2021"
 
+echo "Starting BASHTOOLS"
+cd ../BASHTOOLS
+git pull
+git add .
+git commit -m "auto commit from vml $NOW"
+git push
+echo "Finished BASHTOOLS"
+
 echo "Starting COMPLEMENTARY_V2"
 cd ../COMPLEMENTARY_V2
 git pull
