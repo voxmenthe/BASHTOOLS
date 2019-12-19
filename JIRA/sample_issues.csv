@@ -1,0 +1,3 @@
+Ticket No,Project,Parent ticket,IssueType,Summary,Assignee,Reporter,Priority,Status,Resolution
+MPALS-311,ML POD - ALS,,Story,Develop data sampling methods for complementary products training,Jeffrey Coggshall,Jeffrey Coggshall
+MPALS-345,ML POD - ALS,,Story,Explore alternative model "SAIN",Jeffrey Coggshall,Jeffrey Coggshall

@@ -1,0 +1,5 @@
+Ticket No,Start Date,Timespent,Comment
+MPALS-311,18-Dec-2019 15:58:56,45m,Explored and summarized key ideas
+PRRT-295,18-Dec-2019 15:58:56,45m,Worked on debugging issue where not pulling excluded product types
+PRRT-298,18-Dec-2019 15:58:56,1h 30m,Reviewed literature for alternatives to SHAN
+MPALS-345,18-Dec-2019 15:58:56,8,Ran test of SAIN model with toy dataset - confirmed that it works
