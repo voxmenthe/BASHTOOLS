@@ -3,6 +3,7 @@ NOW=$(date)
 cd /home/jovyan/work/a091569/
 git config credential.helper store
 
+
 echo "Starting FBT"
 cd FBT
 git pull
