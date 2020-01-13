@@ -9,8 +9,8 @@ gsutil cp gs://mcom-site-events/product_attributes_json/ur_develop_productattrib
 
 # make
 mkdir /home/jovyan/work/a091569/data/PROD_DATASETS/pros_events_$NOW
-mv ur*.csv /home/jovyan/datasets/PROD_DATASETS/pros_events_$NOW/
-mv ur*.json /home/jovyan/datasets/PROD_DATASETS/pros_events_$NOW/
+mv ur*.csv /home/jovyan/work/a091569/data/PROD_DATASETS/pros_events_$NOW/
+mv ur*.json /home/jovyan/work/a091569/data/PROD_DATASETS/pros_events_$NOW/
 
 gsutil cp gs://mcom-site-events/pros_car_item_pur_csv/pros_cart_item_purchase .
 gsutil cp gs://mcom-site-events/pros_cart_item_addn_csv/pros_cart_item_addition .
@@ -18,7 +18,7 @@ gsutil cp gs://mcom-site-events/pros_prod_vw_csv/pros_product_view.csv .
 
 # make
 mkdir /home/jovyan/work/a091569/data/PROD_DATASETS/pros_events_$NOW/d60
-mv pros*.csv /home/jovyan/datasets/PROD_DATASETS/pros_events_$NOW/d60/
+mv pros*.csv /home/jovyan/work/a091569/data/PROD_DATASETS/pros_events_$NOW/d60/
 
 gsutil cp gs://mcom-site-events/pros_cart_item_pur_csv_120/pros_cart_item_purchase.csv .
 gsutil cp gs://mcom-site-events/pros_cart_item_addn_csv_120/pros_cart_item_addition.csv .
@@ -26,7 +26,7 @@ gsutil cp gs://mcom-site-events/pros_prod_vw_csv_120/pros_product_view.csv .
 
 # make
 mkdir /home/jovyan/work/a091569/data/PROD_DATASETS/pros_events_$NOW/d120
-mv pros*.csv /home/jovyan/datasets/PROD_DATASETS/pros_events_$NOW/d120/
+mv pros*.csv /home/jovyan/work/a091569/data/PROD_DATASETS/pros_events_$NOW/d120/
 
 
 # rename files with current date
