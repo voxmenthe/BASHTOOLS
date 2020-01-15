@@ -7,4 +7,5 @@ conda install -y conda-forge pillow==6.2.1
 conda install -y anaconda pydot
 conda install -y anaconda argparse
 conda install -y anaconda tqdm
+conda install -y anaconda fastai
 
