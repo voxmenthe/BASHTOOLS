@@ -154,6 +154,15 @@ git commit -m "automated commit from laptop $NOW"
 git push
 echo "Finished sota_arxiv_query"
 
+echo "Starting bks"
+cd ../bks
+git config credential.helper store
+git pull
+git add .
+git commit -m "automated commit from laptop $NOW"
+git push
+echo "Finished bks"
+
 echo "Starting git_pull_only"
 cd ../git_pull_only
 git config credential.helper store
